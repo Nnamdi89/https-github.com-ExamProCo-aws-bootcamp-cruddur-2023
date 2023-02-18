@@ -29,4 +29,9 @@ Below is a screenshot:
 
 - The billing alarm was created via the console using Cloudwatch as the AWS service. See below for confirmation
 
-![Billing Alarm](/_docs/assets/Billing Alarm.png)
+![Billing Alarm](/_docs/assets/Week_0_billing_Alarm.png)
+
+## HOMEWORK CHALLENGES
+
+
+
