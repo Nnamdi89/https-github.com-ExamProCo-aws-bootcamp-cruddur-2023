@@ -2,6 +2,7 @@
 
 Installed Docker extension in VSCode
 Created a dockerfile in the backend-flask folder and set environment variables for FRONTEND_URL = '*' and BACKEND_URL = '*'
+setting the frontend_url and backend_url environment variables in the docker file ensures that any container that is run using the image created by this dockerfile will contain those variables
 ```
 FROM python:3.10-slim-buster
 
@@ -11,7 +12,7 @@ COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 COPY . .
-# setting the frontend_url and backend_url environment variables in the docker file ensures that any container that is run using the image created by this dockerfile will contain those variables
+
 ENV FRONTEND_URL = '*'
 
 ENV BACKEND_URL = '*'
