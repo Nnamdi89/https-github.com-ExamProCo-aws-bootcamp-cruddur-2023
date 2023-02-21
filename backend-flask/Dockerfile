@@ -7,6 +7,8 @@ RUN pip3 install -r requirements.txt
 #the use of 2 periods identify that we are copying everything in the current directory listed above i.e /backend-flask
 COPY . .
 #set environment variables so that it is fixed whenever the container is running
+ENV FRONTEND_URL = "*"
+ENV BACKEND_URL = "*"
 ENV FLASK_ENV=development
 
 EXPOSE ${PORT}
