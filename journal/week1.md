@@ -50,8 +50,10 @@ Below are the details of the completed challenges
 #### Push and Tag images to Dockerhub
 
 5. I signed up for a free account on dockerhub, then created a public repository named [augustineezugwu/cloudprojectbootcamp](https://hub.docker.com/r/augustineezugwu/cloudprojectbootcamp)
-6. Then I logged in via the command line, tagged the images and then pushed it to dockerhub
-![docker_push_dockerhub]()
+6. Then I logged in via the command line of my local machine, tagged the images and then pushed it to dockerhub
+
+![docker_push_dockerhub](/_docs/assets/week1_homeworkchallenge/week1dockerbuildusingdockerhubreponame.png)
+![dockerhubimages](/_docs/assets/week1_homeworkchallenge/week1dockerpushfrontend.png)
 
 
 
