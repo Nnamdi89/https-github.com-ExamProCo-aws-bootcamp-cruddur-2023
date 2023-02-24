@@ -17,7 +17,19 @@ After confirming that the individual containers run without any issues, I create
 
 **I learnt from tinkering with the dockerfile for the frontend-react-js that environment variables can be set within the dockerfile to ensure that whenever a container is run from the image created by the dockerfile, the variables are available**
 
-I also ran DynamonDB and Postgres Containers locally and tested them to make sure that there were no issues. To do this, I updated my gitpod.yml to include code to install postgress sql client in gitpod and also added vscode extension for it. I then updated my dockercompose.yml with code that integrates Dynamodb and Postgres when the container is run 
+I also ran DynamonDB and Postgres Containers locally and tested them to make sure that there were no issues. 
+
+To do this, I updated my [gitpod.yml](/.gitpod.yml) to include code to install postgress sql client in gitpod and also added vscode extension for it. I then updated my dockercompose.yml with code that integrates Dynamodb and Postgres when the container is run.
+
+## Homework Challenges
+
+For my homework challenges, I did the following:
+
+- Installed Docker on my local machine and got the same containers running outside of Gitpod
+- Pushed and tagged images to Dockerhub
+- Pulled Docker images from Dockerhub in Gitpod
+- Created ECR and pushed images to Amazon Elastic Container Registry
+- Run containers using images stored in Amazon ECR
 
 
 
