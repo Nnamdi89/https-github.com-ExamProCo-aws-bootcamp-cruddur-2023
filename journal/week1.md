@@ -29,7 +29,6 @@ For my homework challenges, I did the following:
 - Pushed and tagged images to Dockerhub
 - Pulled Docker images from Dockerhub in Gitpod
 - Created ECR and pushed images to Amazon Elastic Container Registry
-- Run containers using images stored in Amazon ECR
 
 Below are the details of the completed challenges
 
@@ -55,6 +54,24 @@ Below are the details of the completed challenges
 ![docker_push_dockerhub](/_docs/assets/week1_homeworkchallenge/week1dockerbuildusingdockerhubreponame.png)
 ![dockerhubimages](/_docs/assets/week1_homeworkchallenge/week1dockerpushfrontend.png)
 
+#### Pulled Docker Images from Dockerhub in Gitpod
 
+7. To further extend my practice, I logged into dockerhub and pulled the images in my dockerhub registry into gitpod using the docker pull command. I practiced with the backend-flask image and ran a container with the pulled image
+
+![dockerpullimages](/_docs/assets/week1_homeworkchallenge/week1_dockerpullbackend-flask.png)
+![dockerpullruncontainer](/_docs/assets/week1_homeworkchallenge/week1dockerpulldockerhubruncontainer.png)
+
+#### Created ECR and pushed image to Amazon Elastic Container Registry
+
+8. I created a repo in my default AWS ECR via the aws cli
+ ![ecrrepoawscli](/_docs/assets/week1_homeworkchallenge/week1_docker_aws_cli_create_repo.png)
+ ![ecrrepoaws](/_docs/assets/week1_homeworkchallenge/week1_awsrepocreatedthrucli.png)
+
+9. Then, I pushed the image to Amazon ECR
+ ![awsecrrepo](/_docs/assets/week1_homeworkchallenge/week1_docker_aws_push_image_code.png)
+ ![awsecrrepo](/_docs/assets/week1_homeworkchallenge/week1_docker_aws_imageinrepo.png)
+
+   
+   
 
 
