@@ -31,8 +31,27 @@ For my homework challenges, I did the following:
 - Created ECR and pushed images to Amazon Elastic Container Registry
 - Run containers using images stored in Amazon ECR
 
+Below are the details of the completed challenges
 
+#### Installing Docker and running containers locally
 
+1. I watched the docker fundamentals video by Adam Cantril. It is a brilliant, easy to understand tutorial. I then downloaded the Docker Desktop App. I did quite a bit of research and troubleshooting to get the app to work properly including installing a previous version and clean and purge data.
+2. I cloned my github repo into my local machine using ```git clone https://github.com/Nnamdi89/https-github.com-ExamProCo-aws-bootcamp-cruddur-2023.git``` 
+3. I then ran the appropriate docker command in the directory of choice
+
+ ![backend-flask image](/_docs/assets/week1_homeworkchallenge/Week1_homeworkchallenge_dockerbuild_backend.png)
+ ![backend-flask image](/_docs/assets/week1_homeworkchallenge/Week1_dockerbackend_image.png)
+ ![backend-flask image](/_docs/assets/week1_homeworkchallenge/Week1_backend_container.png)
+ ![backend-flask image](/_docs/assets/week1_homeworkchallenge/Week1backend-flaskrunninglocalhost.png)
+
+4. I did same for frontend-react-js 
+ ![frontend-react-js image](/_docs/assets/week1_homeworkchallenge/week1dockerbuildfrontendimage.png)
+
+#### Push and Tag images to Dockerhub
+
+5. I signed up for a free account on dockerhub, then created a public repository named [augustineezugwu/cloudprojectbootcamp](https://hub.docker.com/r/augustineezugwu/cloudprojectbootcamp)
+6. Then I logged in via the command line, tagged the images and then pushed it to dockerhub
+![docker_push_dockerhub]()
 
 
 
