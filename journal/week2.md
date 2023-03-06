@@ -32,4 +32,7 @@ I also ran custom queries including Heatmap by UserId, UserId by Count etc
 
 ![heatmap by userid](/_docs/assets/week2homeworkchallenge/Week3_honeycomb_customquery.png)
 
-Finally, I created custom span and attribute in the [notifications_activities.py]()
+Finally, I created custom span and attribute in the [notifications_activities.py](/backend-flask/services/notification_activities.py)
+
+![notification span](/_docs/assets/week2homeworkchallenge/Week2_honeycomb_customspan.png)
+
