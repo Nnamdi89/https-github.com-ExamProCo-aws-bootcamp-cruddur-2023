@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+import random
 from opentelemetry import trace
 tracer = trace.get_tracer("home.activities")
 class HomeActivities:
@@ -6,6 +7,8 @@ class HomeActivities:
     # logger.info(HomeActivities)
     with tracer.start_as_current_span("home-activities-mock-data"):
       span = trace.get_current_span()
+      username = ['Andrew Brown', 'Garek', 'Worf', 'Cocomelon']
+      senders_username = random.choices(username)
       now = datetime.now(timezone.utc).astimezone()
       span.set_attribute("app.now", now.isoformat())
       results = [{
@@ -48,4 +51,5 @@ class HomeActivities:
       }
       ]
       span.set_attribute("app.result_length", len(results))
+      span.set_attribute("UserId", senders_username)
       return results
